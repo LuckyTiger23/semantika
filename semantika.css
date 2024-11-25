@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Teko";
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    border-bottom: 1px solid transparent;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+nav a:hover{
+    color: #FDDD0A;
+    border-bottom: 1px solid #FDDD0A;
+}
+
+nav button{
+    all: unset;
+    border: 1px solid #FDDD0A;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: #FDDD0A;
+}
+
+nav button:hover{
+    color: #fff;
+    border-color: #fff;
+}
+
+nav{
+    display: flex;
+}
+
+.popup-menu{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.menu a{
+    display: block;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.menu{
+   display: none;
+   position: absolute;
+   background-color: #000;
+   right: 0;
+   padding: 20px;
+   width: 100px;
+}
+
+.popum-menu p {
+    margin: 0 50px;
+}
+.popup-menu:hover .menu{
+    display: block;
+}
